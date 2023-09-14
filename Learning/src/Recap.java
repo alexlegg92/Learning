@@ -16,7 +16,7 @@ public class Recap extends javax.swing.JFrame{
     public String currentQuestion;
     public String currentAnswer;
 
-    public void myMethod(){
+    public void qAA(){
         HashMap<String, String> questionAndAnswer = new HashMap<String, String>();
         questionAndAnswer.put("Question1", "Answer1");
         questionAndAnswer.put("Question2", "Answer2");
@@ -70,7 +70,7 @@ public class Recap extends javax.swing.JFrame{
 
         // calling pack() at the end will ensure that every layout and size defined gets applied before the stuff becomes visible
         pack();
-        myMethod();
+        qAA();
     }
 
     public static void main(String args[]){
