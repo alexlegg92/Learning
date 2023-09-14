@@ -1,5 +1,8 @@
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.util.HashMap;
 
 public class Recap extends javax.swing.JFrame{
     // essential components
@@ -10,6 +13,30 @@ public class Recap extends javax.swing.JFrame{
     private JTextArea answerTextArea;          // the answer text area
     private final JButton showButton;          // and a "show" button
     private final JButton nextButton;          // and a "next" button
+    public String currentQuestion;
+    public String currentAnswer;
+
+    public void myMethod(){
+        HashMap<String, String> questionAndAnswer = new HashMap<String, String>();
+        questionAndAnswer.put("Question1", "Answer1");
+        questionAndAnswer.put("Question2", "Answer2");
+        questionAndAnswer.put("Question3", "Answer3");
+        questionAndAnswer.put("Question4", "Answer4");
+        questionAndAnswer.put("Question5", "Answer5");
+
+        for (String i : questionAndAnswer.keySet()){
+            System.out.println("key: " + i + " value: " + questionAndAnswer.get(i));
+            currentQuestion = i;
+            showButton.addActionListener(new ActionListener(){
+                public void actionPerformed(ActionEvent evt){
+                    currentAnswer = questionAndAnswer.get(i);
+                }
+            });
+        }
+
+        questionTextArea.setText(currentQuestion);
+        answerTextArea.setText(currentAnswer);
+    }
 
     public Recap(){
         // create containers. splitPane devides the window into two components (here: top and bottom)
@@ -43,6 +70,7 @@ public class Recap extends javax.swing.JFrame{
 
         // calling pack() at the end will ensure that every layout and size defined gets applied before the stuff becomes visible
         pack();
+        myMethod();
     }
 
     public static void main(String args[]){
