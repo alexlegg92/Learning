@@ -4,7 +4,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.HashMap;
 
-public class Recap extends javax.swing.JFrame{
+public class Flashcards extends javax.swing.JFrame{
     // essential components
     private final JSplitPane splitPane;        // split the window into top and bottom
     private final JPanel topPanel;             // container panel for the top
@@ -38,7 +38,7 @@ public class Recap extends javax.swing.JFrame{
         answerTextArea.setText(currentAnswer);
     }
 
-    public Recap(){
+    public void Flashcards(){
         // create containers. splitPane devides the window into two components (here: top and bottom)
         splitPane = new JSplitPane();
 
@@ -77,7 +77,7 @@ public class Recap extends javax.swing.JFrame{
         EventQueue.invokeLater(new Runnable(){
             @Override
             public void run(){
-                new Recap().setVisible(true);
+                new Flashcards().setVisible(true);
             }
         });
     }
