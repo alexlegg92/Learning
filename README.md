@@ -8,3 +8,4 @@ My process:
 3. I have a document 6 pages long from the course that I haven't reviewed yet. I'm now 1.5 pages in, transfering notes and applying it in IntelliJ. I feel this could be another waste of time, copying from the course to a doc; copying from a doc to a program.
 4. I just want to start writing programs, maybe that's just me procrastining, wanting to avoid all the documentation, tedious video watching, note taking, memorisation, and wanting the thrill of solving problems ... Maybe that thrill is what will drive me to learn.
 5. For now I think it's a good idea to start writing programs, work my way up in difficulty, attempting to apply what I've learnt; let's see what happens.
+6. Focus my efforts on solving problems without any help but documentation ... These could be the two most important skills.
