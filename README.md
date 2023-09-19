@@ -10,9 +10,9 @@ My process:
 6. Focus my efforts on solving problems without any help but documentation ... These could be the two most important skills.
 
 Status:
-• SoItBegins (in progress: course environment/notes)
-• Flashcards (incomplete)
-• Sum (complete)
-• ReversingString (complete)
-• NumberGuessingGame (complete)
-• Calculator (incomplete)
+* SoItBegins (in progress: course environment/notes)
+* Flashcards (incomplete)
+* Sum (complete)
+* ReversingString (complete)
+* NumberGuessingGame (complete)
+* Calculator (incomplete)
