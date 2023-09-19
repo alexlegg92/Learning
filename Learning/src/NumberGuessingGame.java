@@ -5,10 +5,12 @@ import java.util.Scanner;
  *  The computer will let the user know if their guess is too high, too low, or correct.
  *  Can give the user an unlimited, or limited number of guesses. */
 
+// Breaking down tasks:
+// Store a randomly generated number as int.
+// Tell the user to input a number and get input.
+// Compare user input to random number: if input is too high, low, or correct; respond accordingly.
+
 public class NumberGuessingGame {
-    // Store a randomly generated number as int.
-    // Tell the user to input a number and get input.
-    // Compare user input to random number: if input is too high, low, or correct; respond accordingly.
     static int generateRandom() {
         Random r = new Random();
         return r.nextInt(10);
