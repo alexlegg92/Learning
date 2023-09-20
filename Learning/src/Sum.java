@@ -4,8 +4,13 @@ import java.util.Scanner;
 
 public class Sum {
     // I want to return a String.
-    static String returnMessageAndSum(int a, int b) {
-        return "The sum is " + (a + b);
+    // Deprecated method:
+//    static String returnMessageAndSum(int a, int b) {
+//        return "The sum is " + (a + b);
+//    }
+
+    static int newSumMethod(int a, int b) {
+        return Integer.sum(a, b);
     }
 
     public static void main(String[] args) {
@@ -18,6 +23,8 @@ public class Sum {
         System.out.println("Enter second number:");
         int b = scanner.nextInt();
 
-        System.out.print(returnMessageAndSum(a, b));
+        // Deprecated method call
+//        System.out.print(returnMessageAndSum(a, b));
+        System.out.print(newSumMethod(a, b));
     }
 }
