@@ -1,3 +1,4 @@
+/** Old project layout - main inside of Bicycle class */
 public class Bicycle {
     // Include fields for "states".
     private int topSpeed;
