@@ -17,6 +17,9 @@
 * Calculator (incomplete)
 * Bicycle (complete)
 * Metals (complete)
+* Bike (complete)
+* Car (complete)
+* Vehicle (complete)
 
 ## Tips after "learning Java for 14 days"
 * Be patient, pay attention, work on problem-solving skills, and before coding most importantly; plan!:
@@ -35,3 +38,4 @@
 * Top 15 Java Project Ideas for Beginners: https://bootcamp.cvn.columbia.edu/blog/java-projects-for-beginners-to-gain-skills/
 * List of Java Keywords: https://en.wikipedia.org/wiki/List_of_Java_keywords
 * Java Shell User's Guide: https://docs.oracle.com/en/java/javase/11/jshell/java-shell-user-guide.pdf
+* Java API: https://docs.oracle.com/javase/8/docs/api/index.html
