@@ -33,6 +33,10 @@ src
 * Build small manageable projects that are slightly above my comfort level, incorporating knowledge from flashcards.
 * Use javadoc on source code.
 
+## Lessons from trying to build a simple HTTP web server
+* Understanding the problem is more important than the planning, and the planning is more important than the executing.
+* A solid understanding of Java concepts is crucial to problem solving and the executing of a program.
+
 ## Resources
 * The Java Tutorial: https://docs.oracle.com/javase/tutorial/tutorialLearningPaths.html
 * The Really Big Index: https://docs.oracle.com/javase/tutorial/reallybigindex.html
