@@ -78,8 +78,6 @@ public class WebServer {
             OutputStream outputStream = exchange.getResponseBody();
             outputStream.write(response.getBytes());
             outputStream.close();
-
-            System.out.println(inputStream.read());
         }
     }
 }
