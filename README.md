@@ -9,17 +9,21 @@
 * Focus my efforts on solving problems without any help but documentation ... These could be the two most important skills.
 
 ## Status
-* SoItBegins (complete)
-* Flashcards (incomplete)
-* Sum (complete)
-* ReversingString (complete)
-* NumberGuessingGame (complete)
-* Calculator (incomplete)
+excluded
 * Bicycle (complete)
-* Metals (complete)
+* Calculator (incomplete)
+* Flashcards (incomplete)
+src
+* Bicycle (complete)
 * Bike (complete)
 * Car (complete)
+* Metals (complete)
+* NumberGuessingGame (complete)
+* ReversingString (complete)
+* SoItBegins (complete)
+* Sum (complete)
 * Vehicle (complete)
+* WebServer (complete)
 
 ## Tips after "learning Java for 14 days"
 * Be patient, pay attention, work on problem-solving skills, and before coding most importantly; plan!:
