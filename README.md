@@ -9,11 +9,11 @@
 * Focus my efforts on solving problems without any help but documentation ... These could be the two most important skills.
 
 ## Status
-excluded
+### excluded
 * Bicycle (complete)
 * Calculator (incomplete)
 * Flashcards (incomplete)
-src
+### src
 * Bicycle (complete)
 * Bike (complete)
 * Car (complete)
