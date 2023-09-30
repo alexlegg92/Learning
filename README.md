@@ -9,14 +9,16 @@
 * Focus my efforts on solving problems without any help but documentation ... These could be the two most important skills.
 
 ## Status
-### excluded
+### Learning
+#### excluded
 * Bicycle (complete)
 * Calculator (incomplete)
 * Flashcards (incomplete)
-### src
+#### src
 * Bicycle (complete)
 * Bike (complete)
 * Car (complete)
+* LearningVariables (complete)
 * Metals (complete)
 * NumberGuessingGame (complete)
 * ReversingString (complete)
@@ -24,6 +26,12 @@
 * Sum (complete)
 * Vehicle (complete)
 * WebServer (complete)
+### Game
+* Using the "Java / JavaFX / Kotlin Game Library (Engine)": http://almasb.github.io/FXGL/
+* I begin by pulling the "template project for FXGL games using Maven and Gradle": https://github.com/AlmasB/FXGL-MavenGradle
+### JobConnectAgency
+* A website idea using Java / Spring Boot / MongoDB.
+
 
 ## Tips after "learning Java for 14 days"
 * Be patient, pay attention, work on problem-solving skills, and before coding most importantly; plan!:
