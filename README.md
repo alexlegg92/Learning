@@ -26,9 +26,6 @@
 * Sum (complete)
 * Vehicle (complete)
 * WebServer (complete)
-### Game
-* Using the "Java / JavaFX / Kotlin Game Library (Engine)": http://almasb.github.io/FXGL/
-* I begin by pulling the "template project for FXGL games using Maven and Gradle": https://github.com/AlmasB/FXGL-MavenGradle
 ### JobConnectAgency
 * A website idea using Java / Spring Boot / MongoDB.
 
